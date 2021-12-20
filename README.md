@@ -1,9 +1,9 @@
 # Boolgram
 
-![](./assets/boolgram-viedo.mp4)
-
 ### Details
 Please build a small replica of the homepage of Instagram web using React which consumes a set of endpoints provided by us.
+
+https://user-images.githubusercontent.com/13719921/146746846-fe2e561f-eb6f-46b0-9919-54ad6c01b56e.mp4
 
 ### Submission
 1. Please fork this repository
