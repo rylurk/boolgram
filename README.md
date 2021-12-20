@@ -1,7 +1,7 @@
 # Boolgram
 
 ### Details
-Please build a small replica of the homepage of Instagram web using React which consumes a set of endpoints provided by us.
+Please build a small replica of the homepage of Instagram web using React which consumes a set of endpoints provided by us. Please note, the language of the application in the video is set to Italian - feel free to use either Italian or English.
 
 https://user-images.githubusercontent.com/13719921/146746846-fe2e561f-eb6f-46b0-9919-54ad6c01b56e.mp4
 
