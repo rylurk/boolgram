@@ -1,7 +1,11 @@
+import Feed from './Feed';
+import Navbar from './components/Navbar/Navbar';
+
 export default function Page() {
   return (
-    <div>
-      <h1>Hello</h1>
-    </div>
+    <>
+      <Navbar />
+      <Feed />
+    </>
   );
 }
