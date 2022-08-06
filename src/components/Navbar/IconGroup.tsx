@@ -15,7 +15,6 @@ export default function ButtonGroup() {
               <HomeIcon className="h-6 w-6" />
             </button>
           </div>
-          {/* Profile dropdown */}
           <Menu as="div" className="ml-4 relative flex-shrink-0">
             <div>
               <Menu.Button className="bg-indigo-700 flex text-sm rounded-full text-white">
