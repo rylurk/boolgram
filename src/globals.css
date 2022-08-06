@@ -15,7 +15,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-.stories-item:nth-child(n + 4) {
+.stories-item:nth-child(n + 5) {
   @apply hidden;
 }
 

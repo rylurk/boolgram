@@ -1,6 +1,6 @@
-import { Menu } from '@headlessui/react';
 import { HeartIcon } from '@heroicons/react/outline';
 import { HomeIcon } from '@heroicons/react/solid';
+import ProfileButton from '../ProfileButton';
 
 export default function ButtonGroup() {
   return (
@@ -15,13 +15,9 @@ export default function ButtonGroup() {
               <HomeIcon className="h-6 w-6" />
             </button>
           </div>
-          <Menu as="div" className="ml-4 relative flex-shrink-0">
-            <div>
-              <Menu.Button className="bg-indigo-700 flex text-sm rounded-full text-white">
-                <img className="h-8 w-8 rounded-full" src="sample-user.png" alt="" />
-              </Menu.Button>
-            </div>
-          </Menu>
+          <div className="ml-2 flex align-middle">
+            <ProfileButton size={8} border={false} />
+          </div>
         </div>
       </div>
     </>

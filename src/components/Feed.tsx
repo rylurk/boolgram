@@ -1,6 +1,6 @@
-import Posts from './components/Posts/Posts';
-import Sidebar from './components/Sidebar/Sidebar';
-import Stories from './components/Stories/Stories';
+import Posts from './Posts/Posts';
+import Sidebar from './Sidebar/Sidebar';
+import Stories from './Stories/Stories';
 
 export default function Feed() {
   return (
