@@ -1,4 +1,4 @@
-import ProfileButton from '../UI/ProfileButton';
+import ProfileButton from '../ProfileButton';
 
 export default function StoryItem(props: { profile?: string; username?: string }) {
   return (

@@ -1,4 +1,4 @@
-import ProfileButton from '../UI/ProfileButton';
+import ProfileButton from '../ProfileButton';
 
 export default function UserSwitchRow() {
   return (

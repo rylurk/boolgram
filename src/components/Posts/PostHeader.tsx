@@ -1,5 +1,5 @@
 import { DotsHorizontalIcon } from '@heroicons/react/outline';
-import ProfileButton from '../UI/ProfileButton';
+import ProfileButton from '../ProfileButton';
 
 export default function PostHeader(props: { profile?: string; username?: string }) {
   if (!props.profile) {
