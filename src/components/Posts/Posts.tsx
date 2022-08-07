@@ -13,7 +13,7 @@ export default function Posts() {
         <div className="relative h-full" style={{ minHeight: '36rem' }}>
           <ul>
             {[...Array(8)].map((e, i) => (
-              <li className="mt-6">
+              <li key={i} className="mt-6">
                 <div className="h-full border border-gray-200 rounded-md bg-white text-sm">
                   <PostHeader />
                   <PostImage />

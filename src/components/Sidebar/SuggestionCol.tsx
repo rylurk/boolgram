@@ -12,7 +12,7 @@ export default function SuggestionCol() {
         </div>
       </div>
       {[...Array(8)].map((e, i) => (
-        <FollowSuggestion />
+        <FollowSuggestion key={i} />
       ))}
     </div>
   );

@@ -16,7 +16,7 @@ export default function ButtonGroup() {
             </button>
           </div>
           <div className="ml-2 flex align-middle">
-            <ProfileButton size={8} border={false} />
+            <ProfileButton size={8} border={false} image="sample-user.png" />
           </div>
         </div>
       </div>

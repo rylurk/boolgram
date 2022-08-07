@@ -1,4 +1,4 @@
-import StoryItem from './StoryItem';
+import StoriesList from './StoriesList';
 
 export default function Stories() {
   return (
@@ -7,11 +7,7 @@ export default function Stories() {
         <div className="h-full w-[504px] relative">
           <div className="h-32 border border-gray-200 rounded-md bg-white">
             <ul className="flex w-full h-full px-10 overflow-x-auto">
-              {[...Array(8)].map((e, i) => (
-                <li className="stories-item flex rounded-md w-full justify-center">
-                  <StoryItem />
-                </li>
-              ))}
+              <StoriesList />
             </ul>
           </div>
         </div>
