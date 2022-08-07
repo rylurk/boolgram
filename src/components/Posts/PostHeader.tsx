@@ -3,7 +3,7 @@ import ProfileButton from '../ProfileButton';
 
 export default function PostHeader() {
   return (
-    <div className="flex border rounded-sm border-gray-200 h-14">
+    <div className="flex rounded-sm h-14">
       <div className="pl-6 self-center">
         <ProfileButton size={8} border={true} />
       </div>

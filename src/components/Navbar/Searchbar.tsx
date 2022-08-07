@@ -3,7 +3,7 @@ export default function Search() {
     <>
       <div className="flex-1 flex justify-center md:justify-end">
         <div className="w-full px-2 md:px-6 flex justify-center">
-          <div className="relative text-indigo-200 focus-within:text-gray-400 w-56">
+          <div className="relative text-indigo-200 focus-within:text-gray-400 w-64">
             <input
               id="search"
               name="search"
