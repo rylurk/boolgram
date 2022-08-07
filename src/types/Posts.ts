@@ -4,12 +4,12 @@ export type Post = {
   profile_full_name: string;
   post_image: string;
   post_text: string;
-  date: PostDate;
+  date: PostDateTime;
   comments: PostComment[];
   likes: PostLike[];
 };
 
-export type PostDate = {
+export type PostDateTime = {
   date: string;
   timezone_type: number;
   timezone: string;

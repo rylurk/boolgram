@@ -15,7 +15,7 @@ export default function PostItem(props: { post: Post }) {
       <EngageRow likes={props.post.likes} />
       <Caption username={props.post.profile_name} caption={props.post.post_text} />
       <CommentsList comments={props.post.comments} />
-      <PostDate />
+      <PostDate date={props.post.date} />
       <PostFooter />
     </div>
   );

@@ -1,7 +1,19 @@
 import { DotsHorizontalIcon } from '@heroicons/react/outline';
-import ProfileButton from '../ProfileButton';
+import ProfileButton from '../UI/ProfileButton';
 
 export default function PostHeader(props: { profile?: string; username?: string }) {
+  if (!props.profile) {
+    return (
+      <div className="flex rounded-sm h-14">
+        <div className="pl-6 self-center">
+          <ProfileButton size={7} border={false} />
+        </div>
+        <div className="ml-4 self-center w-24 h-4 bg-gray-200" />
+        <div className="ml-4 self-center w-24 h-4 bg-gray-200" />
+      </div>
+    );
+  }
+
   return (
     <div className="flex rounded-sm h-14">
       <div className="pl-6 self-center">

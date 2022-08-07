@@ -2,12 +2,13 @@ import { useQuery } from '@tanstack/react-query';
 import { Post } from '../../types/Posts';
 import { getPosts } from '../../utils/boolgram';
 import PostItem from './PostItem';
+import SkeletonPost from '../UI/SkeletonPost';
 
 export default function PostsList() {
   const { data, isLoading } = useQuery(['getPosts'], getPosts);
 
   if (isLoading) {
-    return <div>Loading...</div>;
+    return <SkeletonPost />;
   }
 
   return (

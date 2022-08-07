@@ -1,4 +1,4 @@
-import ProfileButton from '../ProfileButton';
+import ProfileButton from '../UI/ProfileButton';
 
 export default function FollowSuggestion() {
   return (

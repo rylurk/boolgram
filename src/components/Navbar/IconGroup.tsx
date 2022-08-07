@@ -1,6 +1,6 @@
 import { HeartIcon } from '@heroicons/react/outline';
 import { HomeIcon } from '@heroicons/react/solid';
-import ProfileButton from '../ProfileButton';
+import ProfileButton from '../UI/ProfileButton';
 
 export default function ButtonGroup() {
   return (

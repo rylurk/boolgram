@@ -1,10 +1,10 @@
 import { HeartIcon, ChatIcon } from '@heroicons/react/outline';
 import { PostLike } from '../../types/Posts';
 
-export default function EngageRow(props: { likes?: PostLike[] }) {
+export default function EngageRow(props: { likes: PostLike[] }) {
   let likesMessage = <div className="font-normal">Be the first to like this</div>;
 
-  if (props.likes && props.likes.length === 1) {
+  if (props.likes.length === 1) {
     likesMessage = (
       <div className="font-normal">
         <span className="font-semibold">{props.likes[0].username}</span> likes this
@@ -12,7 +12,7 @@ export default function EngageRow(props: { likes?: PostLike[] }) {
     );
   }
 
-  if (props.likes && props.likes.length > 1) {
+  if (props.likes.length > 1) {
     likesMessage = (
       <div className="font-normal">
         <span className="font-semibold">{props.likes[0].username}</span> and{' '}
