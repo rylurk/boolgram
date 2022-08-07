@@ -1,14 +1,14 @@
-import Posts from './Posts/Posts';
+import PostsContainer from './Posts/PostsContainer';
 import Sidebar from './Sidebar/Sidebar';
-import Stories from './Stories/Stories';
+import StoriesPanel from './Stories/StoriesPanel';
 
 export default function Feed() {
   return (
     <>
       <div className="flex-shrink w-full max-w-7xl mx-auto md:flex">
         <div className="flex-1 min-w-0 bg-white">
-          <Stories />
-          <Posts />
+          <StoriesPanel />
+          <PostsContainer />
         </div>
         <Sidebar />
       </div>
