@@ -5,7 +5,7 @@ export default function PostHeader(props: { profile?: string; username?: string 
   return (
     <div className="flex rounded-sm h-14">
       <div className="pl-6 self-center">
-        <ProfileButton size={8} border={true} image={props.profile} />
+        <ProfileButton size={7} border={true} image={props.profile} />
       </div>
       <div className="pl-4 self-center text-sm font-medium">{props.username}</div>
       <div className="ml-auto pr-6 self-center h-[22px]">

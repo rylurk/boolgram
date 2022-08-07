@@ -1,7 +1,7 @@
-export default function PostImage() {
+export default function PostImage(props: { image?: string }) {
   return (
     <div>
-      <img className="" src="sample-post.jpeg" alt="" />
+      <img className="h-full w-full" src={props.image ? props.image : `skeleton-post.png`} alt="" />
     </div>
   );
 }

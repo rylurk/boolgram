@@ -9,18 +9,18 @@ export type Post = {
   likes: PostLike[];
 };
 
-type PostDate = {
+export type PostDate = {
   date: string;
   timezone_type: number;
   timezone: string;
 };
 
-type PostComment = {
+export type PostComment = {
   username: string;
   text: string;
 };
 
-type PostLike = {
+export type PostLike = {
   username: string;
   profile_picture: string;
 };
